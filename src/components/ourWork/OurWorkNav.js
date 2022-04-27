@@ -4,6 +4,7 @@ import menu from "../../assets/ourWork/menu.svg"
 import Blogs from '../blogPost/Blogs'
 import { Cards } from '../Cards/Cards'
 import WhatWeOffer from '../Offer/WhatWeOffer'
+import OurTeam from '../ourTeam/OurTeam'
 import { StyledWork } from './style'
 const OurWorkNav = () => {
   const [open, setOpen] = useState(false)
@@ -22,7 +23,10 @@ const OurWorkNav = () => {
       <div>
         <Blogs />
       </div>
-      <div><WhatWeOffer/></div>
+      <div><WhatWeOffer /></div>
+      <div>
+        <OurTeam/>
+      </div>
     </StyledWork>
   )
 }
