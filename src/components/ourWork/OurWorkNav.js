@@ -1,7 +1,9 @@
 
 import React, { useState } from 'react'
 import menu from "../../assets/ourWork/menu.svg"
+import Blogs from '../blogPost/Blogs'
 import { Cards } from '../Cards/Cards'
+import WhatWeOffer from '../Offer/WhatWeOffer'
 import { StyledWork } from './style'
 const OurWorkNav = () => {
   const [open, setOpen] = useState(false)
@@ -17,6 +19,10 @@ const OurWorkNav = () => {
       <div>
         <Cards/>
       </div>
+      <div>
+        <Blogs />
+      </div>
+      <div><WhatWeOffer/></div>
     </StyledWork>
   )
 }

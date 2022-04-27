@@ -11,6 +11,7 @@ export const SliderDiv = styled.div`
     position: absolute;
     bottom: 510px;
     left: 436px;
+    top:330px ;
   }
 
   .slider-heading-text {

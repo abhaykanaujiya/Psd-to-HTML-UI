@@ -54,9 +54,9 @@ export const Icons = styled.div`
     props.id == "1" &&
     css`
       position: absolute;
-      top: 57%;
+      top: 70%;
       right: 100%;
-      left: 12%;
+      left: 13%;
     `}
           ${(props) =>
     props.id == "4" &&
@@ -142,7 +142,7 @@ export const StyledDescription = styled.div`
     props.id == "1" &&
     css`
       position: absolute;
-      top: 65%;
+      top: 79%;
       right: 100%;
       left: 10%;
     `}
