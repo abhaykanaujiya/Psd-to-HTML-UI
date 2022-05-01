@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import menu from "../../assets/ourWork/menu.svg"
 import Blogs from '../blogPost/Blogs'
 import { Cards } from '../Cards/Cards'
+import  Footer  from '../footer'
 import WhatWeOffer from '../Offer/WhatWeOffer'
 import OurTeam from '../ourTeam/OurTeam'
 import { StyledWork } from './style'
@@ -27,6 +28,7 @@ const OurWorkNav = () => {
       <div>
         <OurTeam/>
       </div>
+      <div><Footer/></div>
     </StyledWork>
   )
 }

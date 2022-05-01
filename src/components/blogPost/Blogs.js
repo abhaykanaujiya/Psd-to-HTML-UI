@@ -19,7 +19,7 @@ const Blogs = () => {
           <StyledCard className="card" key={post.id}>
             <img className="blog-img" src={post.Image} />
             <div className="card-details">
-              <h5 className="card-detail-title">{post.Title}</h5>
+              <h3 className="card-detail-title">{post.Title}</h3>
               <div className="post-info">
                 <img className="user" src={post.UserProfile} />
                 <p className="user-name">{post.UserName}</p>

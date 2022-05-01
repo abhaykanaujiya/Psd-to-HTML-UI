@@ -18,7 +18,6 @@ export const Cards = () => {
             <Icons type={items.type} id={ items.id}>
               <StyledSearchIcon className="search-icon-container" id={items.id} >
                 <img className="search-icon" src={items.icons.search} />
-     
               </StyledSearchIcon>
               <div className="file-icon-container">
                 <img className="file-icon" src={items.icons.save} />

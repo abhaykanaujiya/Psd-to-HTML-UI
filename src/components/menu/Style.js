@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const StyledNav = styled.div`
-position:sticky ;
+position:fixed ;
   width: 370px;
   height: 100vh;
   display: flex;

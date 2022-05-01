@@ -1,9 +1,9 @@
-import React from 'react'
-import { SliderDiv } from './Style';
-import { sliderImage ,leftarrow,rightarrow} from './Asset';
-import OurWorkNav from '../ourWork/OurWorkNav';
+import React from "react";
+import { SliderDiv } from "./Style";
+import { sliderImage, leftarrow, rightarrow } from "./Asset";
+import OurWorkNav from "../ourWork/OurWorkNav";
 const Slider = () => {
-  const sliderNumber=["01"]
+  const sliderNumber = ["01"];
   return (
     <SliderDiv className="slider">
       <div className="slider-card">
@@ -27,16 +27,16 @@ const Slider = () => {
             <div className="right">
               <img className="right-arrow" src={rightarrow} alt="img" />
             </div>
-            <div className='left'>
-               <img className="left-arrow" src={leftarrow} alt="img" />
+            <div className="left">
+              <img className="left-arrow" src={leftarrow} alt="img" />
             </div>
           </div>
         </div>
       </div>
-      <div className='work-parent'>
-        <OurWorkNav/>
+      <div className="work-parent">
+        <OurWorkNav />
       </div>
     </SliderDiv>
   );
-}
+};
 export default Slider;

@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { css } from "styled-components";
 
 export const StyledCard = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
 
   .card-container {
     display: flex;
@@ -18,7 +18,7 @@ export const StyledCard = styled.div`
   }
 `;
 export const CardImage = styled.img`
-  width: 459px;
+  width: 462px;
   height: 450px;
 `;
 export const StyledHoverImage = styled.img`
@@ -114,10 +114,18 @@ export const StyledSearchIcon = styled.div`
     `}
 `;
 export const StyledDescription = styled.div`
-  padding: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+padding-top:10px ;
+padding-left:15px ;
+
   width: 398px;
+  ${(props) =>
+    props.id == "1" &&
+    css`
+      position: absolute;
+      top: 79%;
+      right: 100%;
+      left: 10%;
+    `}
   ${(props) =>
     props.id == "2" &&
     css`
@@ -130,22 +138,23 @@ export const StyledDescription = styled.div`
     props.id == "3" &&
     css`
       position: absolute;
-      top: 78%;
+      top: 81.1%;
       right: 100%;
-      left: 0%;
+      left: 0.5%;
       padding: 25px;
       opacity: 0.7;
       background-color: #5a5858;
-     
     `}
+    
       ${(props) =>
-    props.id == "1" &&
+    props.id == "4" &&
     css`
       position: absolute;
-      top: 79%;
+      top: 74%;
       right: 100%;
-      left: 10%;
+      left: 64%;
     `}
+
           ${(props) =>
     props.id == "6" &&
     css`
@@ -222,13 +231,12 @@ export const StyledDescription = styled.div`
       right: 100%;
       left: 31%;
       font-size: 17px;
-    .description-para{
-      
-      margin-left:25px ;
-    }
-    .description-heading{
-      color:lightgray ;
-    }
+      .description-para {
+        margin-left: 25px;
+      }
+      .description-heading {
+        color: lightgray;
+      }
     `}
      ${(props) =>
     props.id == "10" &&

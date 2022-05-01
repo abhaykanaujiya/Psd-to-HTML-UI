@@ -1,11 +1,13 @@
 import { Menu } from '@mui/material'
 import React from 'react'
+import { Container } from '../../components/Container'
+import Slider from '../../components/slider'
 
 export const Home = () => {
   return (
-    <div>
-      <Menu />
+    <Container>
+    <Slider/>
       
-    </div>
+    </Container>
   )
 }
