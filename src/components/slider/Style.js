@@ -1,16 +1,19 @@
 import styled from "styled-components";
 
 export const SliderDiv = styled.div`
-  border: 1px solid;
   width: 925px;
   margin: 10px;
-  background-color: skyblue;
+  position: absolute;
+  margin-left: 38%;
+
   .slider-card {
   }
   .slider-heading {
     position: absolute;
-    bottom: 510px;
-    left: 436px;
+    bottom: 0%;
+    left: 8.3%;
+    top: 4.7%;
+    height: fit-content;
   }
 
   .slider-heading-text {
@@ -25,8 +28,10 @@ export const SliderDiv = styled.div`
   .slider-side-nav {
     display: flex;
     position: absolute;
-    bottom: 410px;
-    left: 436px;
+    bottom: 0%;
+    left: 8%;
+    top: 6.5%;
+    height: fit-content;
   }
   .slide-number {
     display: flex;
@@ -34,8 +39,8 @@ export const SliderDiv = styled.div`
     align-items: center;
     font-weight: 500;
     border: 1px solid lightgray;
-    width: 59px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
   }
   .navigation-arrow {
     display: flex;
@@ -45,8 +50,8 @@ export const SliderDiv = styled.div`
   .right {
     display: flex;
     justify-content: center;
-    width: 59px;
-    height: 26px;
+    width: 50px;
+    height: 21px;
     border: 1px solid lightgray;
     align-items: center;
     margin-bottom: 5px;
@@ -59,8 +64,8 @@ export const SliderDiv = styled.div`
   .left {
     display: flex;
     justify-content: center;
-    width: 59px;
-    height: 26px;
+    width: 50px;
+    height: 21px;
     border: 1px solid lightgray;
     align-items: center;
   }
