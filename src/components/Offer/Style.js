@@ -1,17 +1,23 @@
 import styled from "styled-components";
 
 export const StyledDiv = styled.div`
-.card-body{
-  display:flex ;
-}
+  .card-body {
+    display: flex;
+    margin: -5px;
+    margin-top: 5px;
+  }
 `;
 export const StyledNav = styled.div`
-border:1px solid ;
-padding-left:20px ;
-`
+  height: 91px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background-color: white;
+  margin-top:5px ;
+`;
 export const StyledCard = styled.div`
-  border: 1px solid;
-  /* width: 305px; */
+  margin-left :5px;
+  background-color:white ;
   align-items: center;
   .card-title {
     width: 305px;

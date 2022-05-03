@@ -7,6 +7,7 @@ export const Container = ({children}) => {
     <>
    <Menu/>
       {children}
+      {/* <Slider/> */}
     </>
   );
 }

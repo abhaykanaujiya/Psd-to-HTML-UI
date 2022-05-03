@@ -18,9 +18,7 @@ const OurWorkNav = () => {
         <h4>Our Work</h4>
         <img src={menu} onClick={ handleToggle}/>
       </div>
-      <div>
         <Cards/>
-      </div>
       <div>
         <Blogs />
       </div>

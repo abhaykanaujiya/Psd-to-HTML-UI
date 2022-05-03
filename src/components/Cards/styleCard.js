@@ -9,8 +9,10 @@ export const StyledCard = styled.div`
   .card-container {
     display: flex;
     flex-wrap: wrap;
+
   }
   .card-items {
+    width: 460px;
     position: relative;
   }
 
@@ -19,7 +21,7 @@ export const StyledCard = styled.div`
 `;
 export const CardImage = styled.img`
   width: 462px;
-  height: 450px;
+  height: 462px;
 `;
 export const StyledHoverImage = styled.img`
 position:absolute ;
@@ -116,8 +118,8 @@ export const StyledSearchIcon = styled.div`
 export const StyledDescription = styled.div`
 padding-top:10px ;
 padding-left:15px ;
-
-  width: 398px;
+/* width: 409px; */
+width:411px ;
   ${(props) =>
     props.id == "1" &&
     css`
@@ -138,9 +140,9 @@ padding-left:15px ;
     props.id == "3" &&
     css`
       position: absolute;
-      top: 81.1%;
+      top: 82.4%;
       right: 100%;
-      left: 0.5%;
+      left: 0%;
       padding: 25px;
       opacity: 0.7;
       background-color: #5a5858;
@@ -204,7 +206,7 @@ padding-left:15px ;
     props.id == "7" &&
     css`
       position: absolute;
-      top: 81%;
+      top: 82.4%;
       right: 100%;
       left: 0%;
       padding: 25px;

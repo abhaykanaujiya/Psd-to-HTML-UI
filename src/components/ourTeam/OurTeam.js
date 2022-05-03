@@ -17,7 +17,7 @@ const OurTeam = () => {
   return (
     <StyledDiv>
       <StyledNav>
-        <h3>Our Team</h3>
+        <h3 className="heading">Our Team</h3>
       </StyledNav>
 
       <StyledCardDiv>
@@ -63,7 +63,7 @@ const OurTeam = () => {
                     <img src={item.Click} />
                   </StyledBottumNav>
                 </StyledCardInfo>
-                <img src={item.Image} />
+                <img className="c-img" src={item.Image} />
               </StyledCard>
             )}
           </>

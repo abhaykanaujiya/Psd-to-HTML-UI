@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const SliderDiv = styled.div`
-  /* border: 1px solid; */
+
   width: 925px;
   margin: 10px;
-  background-color: skyblue;
   position:absolute ;
-  left:30% ;
+  margin-left:40% ;
   .slider-card {
   }
   .slider-heading {
@@ -14,6 +13,7 @@ export const SliderDiv = styled.div`
     bottom: 0%;
     left: 8.3%;
     top:4.7% ;
+    height:fit-content ;
   }
 
   .slider-heading-text {
@@ -31,6 +31,7 @@ export const SliderDiv = styled.div`
     bottom: 0%;
     left: 8%;
     top:6.5% ;
+    height:fit-content ;
   }
   .slide-number {
     display: flex;

@@ -4,8 +4,16 @@ export const StyledDiv = styled.div`
 
 `
 export const StyledNav = styled.div`
-border:1px solid ;
-`
+  width: 925px;
+  height: 91px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+
+  .heading {
+    margin-left: 29px;
+  }
+`;
 export const StyledCardDiv = styled.div`
 
 `
@@ -13,13 +21,14 @@ export const StyledCard = styled.div`
 display:flex ;
 .c-img{
   width:463px ;
+  background-color:white ;
 }
 `
 export const StyledCardInfo = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  border: 1px solid;
+  /* border: 1px solid; */
   flex-flow: column;
   background-color: #e2e2e2;
   width: 463px;

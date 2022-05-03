@@ -1,28 +1,28 @@
 import styled from "styled-components";
 import { css } from "styled-components";
 
-export const StyledBlog = styled.div`
-
-`
+export const StyledBlog = styled.div``;
 export const StyledBlogNav = styled.div`
   width: 925px;
   height: 91px;
-  display:flex ;
+  display: flex;
   align-items: center;
-  padding-left:20px ;
-
+  background-color: white;
+  .blogs-nav-heading{
+    margin-left:20px ;
+  }
 `;
 export const BlogsCard = styled.div`
-position:relative ;
-
+  position: relative;
 `;
 export const StyledCard = styled.div`
   position: relative;
+  padding-top: 5px;
   display: flex;
   .card-details {
-    border: 1px solid;
     padding-left: 10px;
     padding-right: 5px;
+    background-color: white;
   }
 
   .comment {
@@ -40,23 +40,22 @@ export const StyledCard = styled.div`
   .post-time {
     margin-right: 20px;
   }
-`; 
+`;
 
 export const StyledButton = styled.div`
-  
-    border: 1px solid #5077fb;
-    width: 119px;
-    height: 41px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    color: #5077fb;
-    background-color: rgba(80, 119, 251, 0);
-  
+  border: 1px solid #5077fb;
+  width: 119px;
+  height: 41px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #5077fb;
+  background-color: rgba(80, 119, 251, 0);
+
   ${(props) =>
     props.id === "1" &&
     css`
       border: 3px solid;
-      `}
+    `}
 `;
