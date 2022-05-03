@@ -9,7 +9,7 @@ export const StyledNav = styled.div`
   display: flex;
   align-items: center;
   background-color: white;
-
+  margin-top: 6px;
   .heading {
     margin-left: 29px;
   }

@@ -1,19 +1,19 @@
 import styled from "styled-components";
 
 export const SliderDiv = styled.div`
-
   width: 925px;
   margin: 10px;
-  position:absolute ;
-  margin-left:40% ;
+  position: absolute;
+  margin-left: 38%;
+
   .slider-card {
   }
   .slider-heading {
     position: absolute;
     bottom: 0%;
     left: 8.3%;
-    top:4.7% ;
-    height:fit-content ;
+    top: 4.7%;
+    height: fit-content;
   }
 
   .slider-heading-text {
@@ -30,8 +30,8 @@ export const SliderDiv = styled.div`
     position: absolute;
     bottom: 0%;
     left: 8%;
-    top:6.5% ;
-    height:fit-content ;
+    top: 6.5%;
+    height: fit-content;
   }
   .slide-number {
     display: flex;

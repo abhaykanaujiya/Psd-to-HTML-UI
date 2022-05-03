@@ -10,7 +10,7 @@ export const StyledWork = styled.div`
     justify-content: space-between;
     padding-left: 25px;
     padding-right: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     
   }
 `;

@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 
 export const StyledFooter = styled.div`
+margin-top:5px ;
   .rights {
     display:flex ;
     align-items:center ;

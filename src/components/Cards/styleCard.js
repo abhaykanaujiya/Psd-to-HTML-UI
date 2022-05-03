@@ -9,25 +9,31 @@ export const StyledCard = styled.div`
   .card-container {
     display: flex;
     flex-wrap: wrap;
-
-  }
-  .card-items {
-    width: 460px;
-    position: relative;
   }
 
   .description-container {
   }
 `;
+export const StyledCardItems = styled.div`
+  width: 458px;
+  position: relative;
+  ${(props) =>
+    props.id % 2 == 0 &&
+    css`
+      width: 458px;
+      position: relative;
+      margin-left: 7px;
+    `}
+`;
 export const CardImage = styled.img`
-  width: 462px;
+  width: 458px;
   height: 462px;
 `;
 export const StyledHoverImage = styled.img`
-position:absolute ;
-left:7% ;
-top:5% ;
-  `
+  position: absolute;
+  left: 7%;
+  top: 5%;
+`;
 export const StyledCurveLogo = styled.img`
   position: absolute;
   left: 35%;
@@ -116,10 +122,10 @@ export const StyledSearchIcon = styled.div`
     `}
 `;
 export const StyledDescription = styled.div`
-padding-top:10px ;
-padding-left:15px ;
-/* width: 409px; */
-width:411px ;
+  padding-top: 10px;
+  padding-left: 15px;
+  /* width: 409px; */
+  width: 408px;
   ${(props) =>
     props.id == "1" &&
     css`

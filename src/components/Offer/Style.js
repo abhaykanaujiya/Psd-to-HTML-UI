@@ -17,7 +17,7 @@ export const StyledNav = styled.div`
 `;
 export const StyledCard = styled.div`
   margin-left :5px;
-  background-color:white ;
+  /* background-color:white ; */
   align-items: center;
   .card-title {
     width: 305px;
@@ -26,6 +26,7 @@ export const StyledCard = styled.div`
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
+    background-color:white ;
   }
   .title {
     margin-left: 20px;
