@@ -2,9 +2,6 @@ import styled from "styled-components";
 import { css } from "styled-components";
 
 export const StyledCard = styled.div`
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
 
   .card-container {
     display: flex;

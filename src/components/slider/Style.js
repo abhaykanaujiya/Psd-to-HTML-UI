@@ -4,7 +4,7 @@ export const SliderDiv = styled.div`
   width: 925px;
   margin: 10px;
   position: absolute;
-  margin-left: 38%;
+  margin-left: 35%;
 
   .slider-card {
   }

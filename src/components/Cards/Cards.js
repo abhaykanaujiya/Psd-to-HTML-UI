@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledCard, CardImage, StyledCardItems, Icons, StyledDescription, StyledSearchIcon, StyledHoverImage, StyledCurveLogo } from "./StyleCard";
+import { StyledCard, CardImage, StyledCardItems, Icons, StyledDescription, StyledSearchIcon, StyledHoverImage, StyledCurveLogo } from "./styleCard";
 import { cardDetails, Portfoliohoverblue } from "./Asset";
 export const Cards = () => {
   return (
