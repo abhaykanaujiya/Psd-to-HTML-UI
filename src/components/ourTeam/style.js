@@ -15,7 +15,7 @@ export const StyledNav = styled.div`
   }
 `;
 export const StyledCardDiv = styled.div`
-
+margin-top:5px ;
 `
 export const StyledCard = styled.div`
 display:flex ;
