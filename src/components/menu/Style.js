@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { css } from "styled-components";
 export const StyledNav = styled.div`
 position:fixed ;
   width: 370px;
@@ -140,6 +141,26 @@ export const StyledDiv = styled.div`
     width: 25px;
     height: 25px;
   }
+`;
+export const StyledItems = styled.div`
+  display: flex;
+  align-items: center;
+  .line {
+    width: 22px;
+    height: 2px;
+    background-color: #ffdf00;
+    margin-left: 10px;
+  }
+  ${(props) =>
+    props.index == 0 &&
+    css`
+      color: #ffdf00;
+    `}
+  ${(props) =>
+    props.index == 4 &&
+    css`
+      color: #ffdf00;
+    `}
 `;
 export const StyledTextField = styled.input`
   height: 30px;

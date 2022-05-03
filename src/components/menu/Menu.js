@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledDiv, StyledImg, StyledNav } from "./Style";
+import { StyledDiv, StyledImg, StyledNav, StyledItems } from "./Style";
 import mauntain from "../../assets/sidemenu/mountains.svg";
 import search from "../../assets/searchsvg.svg";
 import one from "../../assets/sidemenu/one.svg";
@@ -43,9 +43,9 @@ export const Menu = () => {
         <div className="menu">
           <div className="menu-items">
             {menuItems.map((items, index) => (
-              <div className="typography-text" key={items.index}>
-                {items}
-              </div>
+              <StyledItems className="typography-text" key={items.index} index={ index}>
+                {items}<div className="line" style={{display:index==0?"block":"none"}}></div>
+              </StyledItems>
             ))}
           </div>
         </div>
